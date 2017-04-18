@@ -1,4 +1,4 @@
-h1. Simple Java Examples
+# Simple Java Examples
 
-h3. LinkedListNthFromLast
+## LinkedListNthFromLast
 Finds the nth element from the last of a singly linkedList
