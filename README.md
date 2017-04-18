@@ -1,7 +1,7 @@
 # Simple Java Examples
 
 ## LinkedListNthFromLast
-Finds the nth element from the last of a singly linkedList
+Finds the **n**th element from the last of a singly linkedList
 ### Concept
 Take 2 pointers, **"main"** and **"helper"**.
 * Step 1:
