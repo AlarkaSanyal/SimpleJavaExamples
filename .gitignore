@@ -1,3 +1,9 @@
+.gitignore
+.settings
+.classpath
+.project
+target
+doc
 *.class
 
 # Mobile Tools for Java (J2ME)
