@@ -3,7 +3,8 @@
 ## LinkedList Examples
 
 ### LinkedListNthFromLast
-Finds the **n**th element from the last of a singly linkedList
+Finds the **n**th element from the last of a singly linkedList.
+
 **Concept**
 * Take 2 pointers, **"main"** and **"helper"**.
 * Make the 2 pointers point to two nodes which are **n** spaces apart, with **"main"** pointing at head.
@@ -13,6 +14,7 @@ Finds the **n**th element from the last of a singly linkedList
 
 ### LinkedListMiddleElement
 Finds the middle element of a singly linkedList.
+
 **Concept**
 * Take 2 pointers, **"ptr1"** and **"ptr2"**.
 * Move **"ptr1"** once and **"ptr2"** twice at the same time. When **"ptr2"** reaches the tail, **"ptr1"** should be pointing to the middle element.
