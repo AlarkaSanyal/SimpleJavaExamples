@@ -2,7 +2,7 @@
 
 ## LinkedList Examples
 
-### LinkedListNthFromLast
+### 1. LinkedListNthFromLast
 Finds the **n**th element from the last of a singly linkedList.
 
 **Concept**
@@ -12,7 +12,7 @@ Finds the **n**th element from the last of a singly linkedList.
 
 **NB:** *This helps in the fact that we do not have to first count the size of the linked list to find the **n**th element from the end.*
 
-### LinkedListMiddleElement
+### 2. LinkedListMiddleElement
 Finds the middle element of a singly linkedList.
 
 **Concept**
@@ -21,5 +21,5 @@ Finds the middle element of a singly linkedList.
 
 **NB:** *This helps in the fact that we do not have to first count the size of the linked list to find the middle element.*
 
-### LinkedListReverse
+### 3. LinkedListReverse
 Reverses a given singly linkedList.
