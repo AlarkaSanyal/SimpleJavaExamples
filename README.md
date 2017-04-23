@@ -28,14 +28,14 @@ Reverses a given singly linkedList.
 Checks if a given singly linkedList is palindrome or not.
 
 ### 5. LinkedListStack
-Stores integers in a stack format using singly linkedList. It has the following functions:
+Stores integers in a **stack** format using singly linkedList. It has the following functions:
 * push - Pushes integer to the stack
 * peep - Prints the last element added to the stack
 * pop - Removes & prints the last element added to the stack
 
 ### 6. LinkedListQueue
-Stores integers in a queue format using singly linkedList. It has the following functions:
+Stores integers in a **queue** format using singly linkedList. It has the following functions:
 * enqueue - Pushes integer to the queue
 * dequeue - Removes & prints the first element added to the queue
 
-**Note**: Store the data in a reversed linkedlint so that it is easier to retrieve the data added first into the queue
+**NB**: *Store the data in a reversed linkedlint so that it is easier to retrieve the data added first into the queue.*
