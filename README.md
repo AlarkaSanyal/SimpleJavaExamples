@@ -37,4 +37,5 @@ Stores integers in a stack format using singly linkedList. It has the following 
 Stores integers in a queue format using singly linkedList. It has the following functions:
 * enqueue - Pushes integer to the queue
 * dequeue - Removes & prints the first element added to the queue
+
 **Note**: Store the data in a reversed linkedlint so that it is easier to retrieve the data added first into the queue
