@@ -23,3 +23,6 @@ Finds the middle element of a singly linkedList.
 
 ### 3. LinkedListReverse
 Reverses a given singly linkedList.
+
+### 4. LinkedListPalindrome
+Checks if a given singly linkedList is palindrome or not.

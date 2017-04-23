@@ -34,7 +34,7 @@ public class LinkedListReverse {
 	private void reverse() {
 		Node prev = null;
 		Node current = head;
-		Node reverse = null;
+		Node reverse;
 		while (current != null) {
 			reverse = current.next;
 			current.next = prev;
