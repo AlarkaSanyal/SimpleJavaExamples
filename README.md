@@ -38,4 +38,4 @@ Stores integers in a **queue** format using singly linkedList. It has the follow
 * enqueue - Pushes integer to the queue
 * dequeue - Removes & prints the first element added to the queue
 
-**NB**: *Store the data in a reversed linkedlint so that it is easier to retrieve the data added first into the queue.*
+**NB**: *Store the data in a reversed linkedlint while **enqueuing** so that it is easier to retrieve the data added first into the queue.*
