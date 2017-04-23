@@ -4,16 +4,6 @@ public class LinkedListMiddleElement {
 
 	Node head;
 	
-	class Node {
-		int value;
-		Node next;
-		
-		public Node(int value) {
-			this.value = value;
-			this.next = null;
-		}
-	}
-	
 	public void findMiddle() {
 		Node ptr1 = head;
 		Node ptr2 = head;

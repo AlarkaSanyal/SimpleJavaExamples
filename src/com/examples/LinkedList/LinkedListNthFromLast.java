@@ -2,16 +2,7 @@ package com.examples.LinkedList;
 
 public class LinkedListNthFromLast {
 
-Node head;
-	
-	class Node {
-		int value;
-		Node next;
-		public Node(int value) {
-			this.value = value;
-			this.next = null;
-		}
-	}
+	Node head;
 	
 	public static void main(String[] args) {
 		

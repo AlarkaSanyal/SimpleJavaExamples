@@ -20,3 +20,6 @@ Finds the middle element of a singly linkedList.
 * Move **"ptr1"** once and **"ptr2"** twice at the same time. When **"ptr2"** reaches the tail, **"ptr1"** should be pointing to the middle element.
 
 **NB:** *This helps in the fact that we do not have to first count the size of the linked list to find the middle element.*
+
+### LinkedListReverse
+Reverses a given singly linkedList.
