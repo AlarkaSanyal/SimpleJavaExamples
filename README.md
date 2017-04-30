@@ -48,4 +48,4 @@ Stores integers in a **queue** format using singly linkedList. It has the follow
 * Copy the elements of respective index locations in **main** array into a **helper** array(same lenght as **main** array).
 * Sort by comparing **left** & **right** array elements and merge to **main** array using respective index locations.
 
-**NB:* Time: O(n log(n)), Space: O(n)
+**NB**: *Time: O(n log(n)), Space: O(n)*
