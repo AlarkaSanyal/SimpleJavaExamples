@@ -49,3 +49,10 @@ Stores integers in a **queue** format using singly linkedList. It has the follow
 * Sort by comparing **left** & **right** array elements and merge to **main** array using respective index locations.
 
 **NB**: *Time: O(n log(n)), Space: O(n)*
+
+### 2. QuickSort
+**Concept**
+* Choose a random element from the array as a pivot.
+* Move the elements smaller than the pivot value to the left & the bigger values to the right.
+
+**NB**: *Time: O(n log(n)) ~ n^2 depending on the random pivot, Space: O(log(n))*
