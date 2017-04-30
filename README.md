@@ -46,6 +46,6 @@ Stores integers in a **queue** format using singly linkedList. It has the follow
 **Concept**
 * Divide the **main** array into 2 parts (**left** & **right**) using recursion.
 * Copy the elements of respective index locations in **main** array into a **helper** array(same lenght as **main** array).
-* Merge **left** & **right** array elements to **main** array using respective index locations.
+* Sort by comparing **left** & **right** array elements and merge to **main** array using respective index locations.
 
 **NB:* Time: O(n log(n)), Space: O(n)
