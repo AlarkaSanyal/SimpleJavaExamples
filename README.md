@@ -57,12 +57,12 @@ Stores integers in a **queue** format using singly linkedList. It has the follow
 
 **NB**: *Time: O(n log(n)) ~ n^2 depending on the random pivot, Space: O(log(n))*
 
-### 2. RadixSort
+### 3. RadixSort
 **Concept**
-* Take 10 buckets for each digit (0 to 9).
-* Find the largest number to get number of digit.
-* Add values from **main** array to each bucket based on the digits (LSD to MSD).
-* Retrieve the values from the bucket and put them in the **main** array starting from index = 0, i.e. sort the elements of the array based on each digit.
+* Take 10 **buckets** for each digit (0 to 9) for decimal number system.
+* Find the largest number to get max number of digits.
+* Add values from **main** array to each **bucket** based on the digits (LSD to MSD).
+* Retrieve the values from the **bucket** and put them in the **main** array starting from index = 0, i.e. sort the elements of the **main** array based on each digit.
 * Repeat the previous 2 steps n times, where n = max number of digits in largest number.
 
 **NB**: *Time: O(kn)*
