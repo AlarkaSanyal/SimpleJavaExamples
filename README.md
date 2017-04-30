@@ -39,3 +39,13 @@ Stores integers in a **queue** format using singly linkedList. It has the follow
 * dequeue - Removes & prints the first element added to the queue
 
 **NB**: *Store the data in a reversed linkedlint while **enqueuing** so that it is easier to retrieve the data added first into the queue.*
+
+## Sorting Examples
+
+### 1. MergeSort
+**Concept**
+* Divide the **main** array into 2 parts (**left** & **right**) using recursion.
+* Copy the elements of respective index locations in **main** array into a **helper** array(same lenght as **main** array).
+* Merge **left** & **right** array elements to **main** array using respective index locations.
+
+**NB:* Time: O(n log(n)), Space: O(n)
