@@ -1,5 +1,7 @@
 package com.examples.Sort;
 
+import java.util.Arrays;
+
 public class QuickSort {
 
 	int[] array;
@@ -10,7 +12,7 @@ public class QuickSort {
 		// Sorting an array of 20 elements
 		int[] values = new int[20];
 		for (int i = 0; i < 20; i++) {
-			values[i] = (int) (Math.random()* 10);
+			values[i] = (int) (Math.random()* 100);
 		}
 		q.sort(values);
 	}
@@ -18,12 +20,12 @@ public class QuickSort {
 	private void sort(int[] values) {
 		array = values;
 		length = array.length;
-		System.out.println("Before");
+		System.out.println("Original");
 		for (int i : array) {
 			System.out.print(i + " ");
 		}
 		quickSort(0, length - 1);
-		System.out.println("\nAfter Sorting");
+		System.out.println("\nSorted");
 		for (int i : array) {
 			System.out.print(i + " ");
 		}

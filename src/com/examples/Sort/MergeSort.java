@@ -11,7 +11,7 @@ public class MergeSort {
 		// Sorting an array of length 20
 		int[] values = new int[20];
 		for (int i = 0; i < 20; i++) {
-			values[i] = (int) (Math.random() * 10);
+			values[i] = (int) (Math.random() * 100);
 		}
 		m.sort(values);
 	}
@@ -21,12 +21,12 @@ public class MergeSort {
 		array = values;
 		length = array.length;
 		helper = new int[length];
-		System.out.println("Before");
+		System.out.println("Original");
 		for (int i : array) {
 			System.out.print(i + " ");
 		}
 		mergeSort(0, length - 1);
-		System.out.println("\nAfter Sorting");
+		System.out.println("\nSorted");
 		for (int i : array) {
 			System.out.print(i + " ");
 		}
