@@ -5,7 +5,7 @@ public class BinarySearch {
 	public static void main(String[] args) {
 		BinarySearch b = new BinarySearch();
 		// Values in the array are sorted 
-		int[] values = {23, 34, 45, 56, 67, 78, 89, 100, 107, 167, 231, 234};		
+		int[] values = {23, 34, 45, 56, 67, 78, 89, 100, 107, 167, 231, 267};		
 		System.out.println("Original");
 		for (int i : values) {
 			System.out.print(i + " ");
@@ -13,8 +13,10 @@ public class BinarySearch {
 		// Search for the following values
 		System.out.println("\n\n---Searching for 27---");
 		b.search(27, values);
-		System.out.println("\n---Searching for 45---");
+		System.out.println("---Searching for 45---");
 		b.search(45, values);
+		System.out.println("---Searching for 231---");
+		b.search(231, values);
 	}
 
 	private void search(int val, int[] values) {
@@ -28,7 +30,7 @@ public class BinarySearch {
 	
 	private boolean binarySearch(int i, int[] array, int low, int high) {
 		boolean found = false;
-		if (low < high) {
+		if (low <= high) {
 			int mid = low + ((high - low) / 2);
 			if (i == array[mid]) {
 				found = true;
