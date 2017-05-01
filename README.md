@@ -66,3 +66,7 @@ Stores integers in a **queue** format using singly linkedList. It has the follow
 * Repeat the previous 2 steps n times, where n = max number of digits in largest number.
 
 **NB**: *Time: O(kn)*
+
+## Searching Example
+
+### 1. Binary Search
