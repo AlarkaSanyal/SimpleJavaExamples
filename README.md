@@ -3,9 +3,10 @@
 ## Sorting and Searching Algorithms
 
 ### 1. SortedMerge
-Given 2 sorted arrays A & B, where A has a large enough buffer at the end to hold B, merge B into A in sorted order without using any buffer or additional memory.
+Given 2 sorted arrays **A** & **B**, where **A** has a large enough buffer at the end to hold **B**, merge **B** into **A** in sorted order without using any buffer or additional memory.
+
 **Concept**
-* Take three pointers, **ptrA** to point the last value of A, **ptrB** to point the last value of B and **ptrC** to point the end of A.
+* Take three pointers, **ptrA** to point the last value of **A**, **ptrB** to point the last value of **B** and **ptrC** to point the end of **A**.
 * Compare the values pointed by **ptrA** and **ptrB** and add the larger one to position pointed by **ptrC**
 * Decrement the pointers and repeat the above step.
 
