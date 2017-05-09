@@ -16,12 +16,10 @@ Given 2 sorted arrays **A** & **B**, where **A** has a large enough buffer at th
 Write a method to sort(group up) an array of strings such that all the anagrams are next to each other.
 
 **Concept**
-* Option A. SortAnagram1
-
+#### Option A. SortAnagram1
 Have a new class AnagramComparator which sorts the array based on the *characters of each element of the array being sorted*.
 
-* Option B. SortAnagram2
-
+#### Option B. SortAnagram2
 Use a HashMap of arrays.
 Use the *characters of each element of the array being sorted* as the key of the HashMap, and add the original words to the arrays (value of the HashMap).
 Loop through the HashMap and add the elements back to the original array. 
