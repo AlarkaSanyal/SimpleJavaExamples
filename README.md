@@ -17,11 +17,14 @@ Write a method to sort(group up) an array of strings such that all the anagrams 
 
 **Concept**
 * Option A. SortAnagram1
-Have a new class AnagramComparator which sorts the array based on the *characters of each element of the array being sorted*.
+
+**Have a new class AnagramComparator which sorts the array based on the *characters of each element of the array being sorted*.
+
 * Option B. SortAnagram2
-Use a HashMap of arrays.
-Use the *characters of each element of the array being sorted* as the key of the HashMap, and add the original words to the arrays (value of the HashMap).
-Loop through the HashMap and add the elements back to the original array. 
+
+** Use a HashMap of arrays.
+** Use the *characters of each element of the array being sorted* as the key of the HashMap, and add the original words to the arrays (value of the HashMap).
+** Loop through the HashMap and add the elements back to the original array. 
 
 **NB**: *With the characters of a word being sorted, the key for {"kiwi", "wiki", "wiik"} will be **"iikw"***
 
