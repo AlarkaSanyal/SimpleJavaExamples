@@ -24,7 +24,7 @@ Use a HashMap of arrays.
 Use the *characters of each element of the array being sorted* as the key of the HashMap, and add the original words to the arrays (value of the HashMap).
 Loop through the HashMap and add the elements back to the original array. 
 
-**NB**: *With the characters of a word being sorted, the key for {"kiwi", "wiki", "wiik"} will be **"iikw"***
+**NB**: *With the characters of a word being sorted, the key for all the elements of {"kiwi", "wiki", "wiik"} will be **"iikw"***
 
 ## LinkedList Examples
 
