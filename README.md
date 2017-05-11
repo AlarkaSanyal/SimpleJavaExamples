@@ -26,6 +26,17 @@ Loop through the HashMap and add the elements back to the original array.
 
 **NB**: *With the characters of a word being sorted, the key for all the elements of {"kiwi", "wiki", "wiik"} will be **"iikw"***
 
+### 3. Search in Rotated Array (SearchRotatedArray)
+Find an element **x** in a sorted array of n integers that has been rotated an unknown number of times.
+
+**Concept**
+* Find the midpoint of the array.
+* Compare **x** to mid value.
+* Compare left most value to mid value and right most value to mid value to find out which side has *normally sorted elements*.
+* Check if **x** within the bounds of the *normally sorted elements*, else search the other half.
+
+**NB**: *If left value == mid value == right value, then we have to search both halves.*
+
 ## LinkedList Examples
 
 ### 1. LinkedListNthFromLast
