@@ -38,10 +38,10 @@ Find an element **x** in a sorted array of n integers that has been rotated an u
 **NB**: *If left value == mid value == right value, then we have to search both halves.*
 
 ### 4. Sorted Search, No Size
-Find an element **x** in a sorted array like data structure of n integers which does not have a size() or length method to return the length of the array. It however has a elementAt(i) function which returns the data at i*th* element of the array or -1 if the index is bigger than the size of the array.
+Find an element **x** in a sorted array like data structure of n integers which does not have a size() or length method to return the length of the array. It however has a elementAt(**i**) function which returns the **i***th* element of the array or -1 if **i** is bigger than the size of the array.
 
 **Concept**
-* Find the low & high of the array by calling the elementAt(i) while doubling i by 2 in each loop checking that **x** is less than elementAt(i) till it returns -1, *i.e. we have exceeded the size of the array*.
+* Find the low & high of the array by calling the elementAt(**i**) while doubling **i** by 2 in each loop checking that **x** is less than elementAt(**i**) till it returns -1, *i.e. we have exceeded the size of the array*.
 * Apply binary search with low = index/2 and high = index, since we know that **x**, if present, is greater than elementAt(index/2) from the previous step.
 
 ## LinkedList Examples
