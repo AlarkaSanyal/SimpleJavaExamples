@@ -65,7 +65,16 @@ Example:
 
 **Concept**
 #### Option A. MatrixSearchA
-Apply binary search on the diagonal of the largest square matrix to find a first element which is bigger than **x** and set the co-ordinates as pivot(a,b). This way, **x** will always be either *equal to*/*below* a*th* row or *equal to*/*right side* of b*th* column. So, we can set 2 sub-matrix, one on left lower and one on right upper and search through them recursively.
+Apply binary search on the diagonal of the largest square matrix to find the first element which is bigger than **x** and set the co-ordinates as pivot(a,b). This way, **x** will always be either *equal to*/*below* a*th* row or *equal to*/*right side* of b*th* column. So, we can set 2 sub-matrix, one on left lower and one on right upper and search through them recursively.
+
+#### Option B. MatrixSearchB
+Using any 2 of the following conditions, we can find **x**.
+* If start of a column is bigger than **x**, the **x** is in left columns.
+* If end of a column is smaller than **x**, the **x** is in right columns.
+* If start of a row is bigger than **x**, the **x** is in upper rows.
+* If end of a row is smaller than **x**, the **x** is in lower rows.
+
+**NB:** *Worst case is O(M log(N)) for MatrixSearchB*
 
 ## LinkedList Examples
 
