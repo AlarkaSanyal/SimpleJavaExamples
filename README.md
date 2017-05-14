@@ -44,6 +44,16 @@ Find an element **x** in a sorted array like data structure of n integers which 
 * Find the low & high of the array by calling the elementAt(**i**) while doubling **i** by 2 in each loop checking that **x** is less than elementAt(**i**) till it returns -1, *i.e. we have exceeded the size of the array*.
 * Apply binary search with low = index/2 and high = index, since we know that **x**, if present, is greater than elementAt(index/2) from the previous step.
 
+### 5. SparseSearch
+Find a string **x** in a sorted array with interspersed empty strings.
+
+**Concept**
+* Similar to normal binary search, with a small change.
+* Find the midpoint of the array.
+* If mid value is empty, find the closest non-empty string and set that as mid.
+
+**NB**: *Worst case runtime is O(n), where only **x** is present in the array with all other elements as empty strings.*
+
 ## LinkedList Examples
 
 ### 1. LinkedListNthFromLast
