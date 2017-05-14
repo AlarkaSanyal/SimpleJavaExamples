@@ -54,14 +54,14 @@ Find a string **x** in a sorted array with interspersed empty strings.
 
 **NB**: *Worst case runtime is O(n), where only **x** is present in the array with all other elements as empty strings.*
 
-### 5. Matrix Search
+### 6. Matrix Search
 Find an integer **x** in a sorted matrix array M X N, increasing both from top to bottom and left to right. 
 Example:
-15,20,31,35,39,45,46
-25,35,36,37,40,47,48
-30,41,42,43,45,50,51
-40,43,45,48,50,52,53
-42,45,50,52,55,60,61
+* 15,20,31,35,39,45,46
+* 25,35,36,37,40,47,48
+* 30,41,42,43,45,50,51
+* 40,43,45,48,50,52,53
+* 42,45,50,52,55,60,61
 
 **Concept**
 #### Option A. MatrixSearchA
