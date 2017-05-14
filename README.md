@@ -54,6 +54,19 @@ Find a string **x** in a sorted array with interspersed empty strings.
 
 **NB**: *Worst case runtime is O(n), where only **x** is present in the array with all other elements as empty strings.*
 
+### 5. Matrix Search
+Find an integer **x** in a sorted matrix array M X N, increasing both from top to bottom and left to right. 
+Example:
+15,20,31,35,39,45,46
+25,35,36,37,40,47,48
+30,41,42,43,45,50,51
+40,43,45,48,50,52,53
+42,45,50,52,55,60,61
+
+**Concept**
+#### Option A. MatrixSearchA
+Apply binary search on the diagonal of the largest square matrix to find a first element which is bigger than **x** and set the co-ordinates as pivot(a,b). This way, **x** will always be either *equal to*/*below* a*th* row or *equal to*/*right side* of b*th* column. So, we can set 2 sub-matrix, one on left lower and one on right upper and search through them recursively.
+
 ## LinkedList Examples
 
 ### 1. LinkedListNthFromLast
