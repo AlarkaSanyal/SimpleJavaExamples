@@ -76,6 +76,24 @@ Using any 2 of the following conditions, we can find **x**.
 
 **NB:** *Worst case is O(M log(N)) for MatrixSearchB*
 
+### 7. Peaks & Valleys
+Given an array of integers, sort the array into alternating peaks and valleys. 
+Example:
+* Input:  1, 2, 3, 4, 5, 6, 7, 8, 9
+* Output: 1, 3, 2, 5, 4, 7, 6, 8, 9
+
+**Concept**
+#### Option A. PeaksAndValleysA
+* Sort the array.
+* Starting from index 1 and not 0, swap every element with the element in the previous index.
+* Since the array is sorted, every 3 elements will be in the order *small***->***medium***->***large* and alternating swapping them would return *medium***->***small***->***large*.
+
+#### Option B. PeaksAndValleysB
+* No need to sort the array.
+* For every 3 consecutive elements, swap, such that the largest of the 3 elements end up in the middle position.
+
+**NB:** *PeaksAndValleysA: O(n log(n)). PeaksAndValleysB: O(n)*
+
 ## LinkedList Examples
 
 ### 1. LinkedListNthFromLast
