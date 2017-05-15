@@ -86,7 +86,7 @@ Example:
 #### Option A. PeaksAndValleysA
 * Sort the array.
 * Starting from index 1 and not 0, swap every element with the element in the previous index.
-* Since the array is sorted, every 3 elements will be in the order *small***->***medium***->***large* and alternating swapping them would return *medium***->***small***->***large*.
+* Since the array is sorted, every 3 elements will be in the order *small* **->** *medium* **->** *large* and alternating swapping them would return *medium* **->** *small* **->** *large*.
 
 #### Option B. PeaksAndValleysB
 * No need to sort the array.
