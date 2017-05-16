@@ -94,6 +94,27 @@ Example:
 
 **NB:** *PeaksAndValleysA: O(n log(n)). PeaksAndValleysB: O(n)*
 
+## Arrays & Strings Examples
+
+### 1. Is Unique String
+Finds is a string has unique characters.
+
+**Concept**
+* Assume what characters are used. For example: ASCII or Unicode. If ASCII, whether ASCII Extended or not.
+#### Option A. IsUniqueA
+* Assume ASCII 0-127 characters are being used.
+* Check if length of string is greater than 128.
+* If yes, return false, since a string using 128 ASCII characters cannot be of length more than 128 without having duplicates.
+* Else, have a boolean array of length 128 and for every character of the string, set the boolean to TRUE for the *ASCII Value*th index.
+* While looping, check if the boolean is already set to TRUE for the *ASCII Value*th index, if yes, return FALSE, because a value is set to TRUE only if the character was present earlier in the string.
+
+#### Option B. IsUniqueB (Using Bit Manipulation)
+* Assume ASCII a-z (small letters only) characters are being used, i.e. 26 characters.
+* Take a **check** integer 0 (in binary, it has 32 bits)
+* For each character of the string, substract 'a' from it, so that max resultant value can be 26.
+** Set the bit of **check**.
+** Get the bity and compare to 0. If not 0, the bit has already been set in the previous step, so return FALSE.
+
 ## LinkedList Examples
 
 ### 1. LinkedListNthFromLast
