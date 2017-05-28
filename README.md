@@ -124,14 +124,14 @@ Checks if two strings are permutation of each other or not.
 * An easy option is to use sort on each word and compare [sort(a).equals(sort(b))] (This is less efficient and not shown in the example)
 * Another option: Initialize an empty int array for each character ASCII value. Loop through one string and increase the count for each character and then loop through the second string decreasing the count and checking if the count is less than 0 or not. If at any time the count goes below 0, break. Else the strings are permutation of each other.
 
-### 2. URLify
-Replace all spaces in a string with '%20', assuming the string has enough buffer the end to hold all the characters.
+### 3. URLify
+Replace all spaces in a string with '%20', assuming the string has enough buffer at the end to hold all the characters.
 
 **Concept**
 * Since using Java, convert the string to a char array.
 * Find the trueLength by starting from the end of the array and returning the first index which is not equal to 'space'.
 * Find the number of spaces.
-* We need to add 3 characters, '%', '2' & '0' in place of 1 character ' ', so net additional space is 3 - 1 = 2 per 'space' in the string.
+* We need to add 3 characters, '%', '2' & '0' in place of 1 character 'space', so net additional space is 3 - 1 = 2 per 'space' in the string.
 * Total length of the string should be trueLength + (spaceCount X 2)
 * Start from the end of trueLength and if space, add '0' -> '2' -> '%' (since we are going backwards) to the end of the resultant string(char array) and decrease the counter by 3, else just add the char from the trueLength index to the total length index.
 
