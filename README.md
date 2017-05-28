@@ -119,10 +119,10 @@ Finds is a string has unique characters.
 Checks if two strings are permutation of each other or not.
 
 **Concept**
-* Assume what characters are used. For example: ASCII or Unicode. If ASCII, whether ASCII Extended or not. Also, whether teh comaprison should be case sensitive or not.
+* Assume what characters are used. For example: ASCII or Unicode. If ASCII, whether ASCII Extended or not. Also, whether the comparison should be case sensitive or not.
 * Compare the length of each string, if not equal, break.
-* An easy option is to use sort each word and compare. [sort(a).equals(sort(b))] (This is less efficient and not shown in the example)
-* Another option: Initialize an empty int array for each character ASCII value. Loop through one string and increasing the count for each character and then loop through the second string decreasing the count and checking if the count is less than 0 or not. If at any time the count goes below 0, break. Else the strings are permutation of each other.
+* An easy option is to use sort on each word and compare [sort(a).equals(sort(b))] (This is less efficient and not shown in the example)
+* Another option: Initialize an empty int array for each character ASCII value. Loop through one string and increase the count for each character and then loop through the second string decreasing the count and checking if the count is less than 0 or not. If at any time the count goes below 0, break. Else the strings are permutation of each other.
 
 ## LinkedList Examples
 
