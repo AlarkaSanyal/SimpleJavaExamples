@@ -116,7 +116,7 @@ Finds is a string has unique characters.
 ** Get the bity and compare to 0. If not 0, the bit has already been set in the previous step, so return FALSE.
 
 ### 2. CheckPermutation
-Finds is 2 strings are permutation of each other or not.
+Checks if two strings are permutation of each other or not.
 
 **Concept**
 * Assume what characters are used. For example: ASCII or Unicode. If ASCII, whether ASCII Extended or not. Also, whether teh comaprison should be case sensitive or not.
