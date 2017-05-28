@@ -115,6 +115,15 @@ Finds is a string has unique characters.
 ** Set the bit of **check**.
 ** Get the bity and compare to 0. If not 0, the bit has already been set in the previous step, so return FALSE.
 
+### 2. CheckPermutation
+Finds is 2 strings are permutation of each other or not.
+
+**Concept**
+* Assume what characters are used. For example: ASCII or Unicode. If ASCII, whether ASCII Extended or not. Also, whether teh comaprison should be case sensitive or not.
+* Compare the length of each string, if not equal, break.
+* An easy option is to use sort each word and compare. [sort(a).equals(sort(b))] (This is less efficient and not shown in the example)
+* Another option: Initialize an empty int array for each character ASCII value. Loop through one string and increasing the count for each character and then loop through the second string decreasing the count and checking if the count is less than 0 or not. If at any time the count goes below 0, break. Else the strings are permutation of each other.
+
 ## LinkedList Examples
 
 ### 1. LinkedListNthFromLast
