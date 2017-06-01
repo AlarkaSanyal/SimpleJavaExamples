@@ -135,6 +135,19 @@ Replace all spaces in a string with '%20', assuming the string has enough buffer
 * Total length of the string should be trueLength + (spaceCount X 2)
 * Start from the end of trueLength and if space, add '0' -> '2' -> '%' (since we are going backwards) to the end of the resultant string(char array) and decrease the counter by 3, else just add the char from the trueLength index to the total length index.
 
+### 4. PalindromePermutation
+Check if a string is a permutation of a palindrome or not.
+
+**Concept**
+* Considering the string is made up of only small letters a - z. Any other character like 'space', etc is not considered for checking palindrome.
+* For a string to be palindrome:
+** If length is even, then each character will have to be a multiple of 2.
+** If length is odd, then only one character can be odd and all others will have to be a multiple of 2.
+* Take an integer counter = 0 (to use the 32 bits of the integer)
+* Loop through each character of the string
+* For each character, if between 'a' - 'z', toggle the respective bit in counter.
+* Check if counter is 0 (for length even) or counter has only one bit set(any bit, but just 1) (for lenght odd).
+
 ## LinkedList Examples
 
 ### 1. LinkedListNthFromLast
