@@ -145,7 +145,7 @@ Check if a string is a permutation of a palindrome or not.
 ** If length is odd, then only one character can be odd and all others will have to be a multiple of 2.
 * Take an integer counter = 0 (to use the 32 bits of the integer)
 * Loop through each character of the string
-* For each character, if between 'a' - 'z', toggle the respective bit in counter.
+* For each character, if between 'a' - 'z', toggle the respective bit in counter. If a character is a multiple of 2, after all the toggling, it will end up as 0, where it started from.
 * Check if counter is 0 (for length even) or counter has only one bit set(any bit, but just 1) (for lenght odd).
 
 ## LinkedList Examples
