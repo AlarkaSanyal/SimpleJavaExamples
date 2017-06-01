@@ -1,4 +1,4 @@
-package com.examples.SortAndSearchAlgos;
+package com.examples.ArraysAndStrings;
 
 public class URLify {
 
