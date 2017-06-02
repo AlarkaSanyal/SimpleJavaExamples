@@ -158,6 +158,9 @@ Check if two strings **A** and **B** are one *"edit"* away or not.
 * If equal, loop through the characters and set a flag the first time there is a difference. While looping, if there is a second difference, return false.
 * If length of **A** & **B** are different by 1, then use two pointers, **pointerA** & **pointerB**. Loop through the characters and the increase the pointer for the bigger string by 1 when there is a difference the first time. While looping, if there is a second difference, i.e. **pointerA** & **pointerB** will not be equal anymore, return false.
 
+#### Option B. OneAwayB
+* Similar to OneAwayA, just a little more concise.
+
 ## LinkedList Examples
 
 ### 1. LinkedListNthFromLast
