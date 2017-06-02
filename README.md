@@ -162,7 +162,7 @@ Check if two strings **A** and **B** are one *"edit"* away or not.
 * Similar to OneAwayA, just a little more concise.
 
 ### 6. String Compression
-Compress consecutive characters. If there are no consecutive characters, return the original one.
+Compress consecutive characters. If there are no consecutive characters, return the original one. Examples:
 * aabbbcaa => a2b3c1a2
 * abacd => abacd
 
