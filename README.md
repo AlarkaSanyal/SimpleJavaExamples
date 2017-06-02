@@ -163,8 +163,8 @@ Check if two strings **A** and **B** are one *"edit"* away or not.
 
 ### 6. String Compression
 Compress consecutive characters. If there are no consecutive characters, return the original one.
-aabbbcaa => a2b3c1a2
-abacd => abacd
+* aabbbcaa => a2b3c1a2
+* abacd => abacd
 
 **Concept**
 * Use StringBuilder to append counts.
