@@ -161,6 +161,15 @@ Check if two strings **A** and **B** are one *"edit"* away or not.
 #### Option B. OneAwayB
 * Similar to OneAwayA, just a little more concise.
 
+### 6. String Compression
+Compress consecutive characters. If there are no consecutive characters, return the original one.
+aabbbcaa => a2b3c1a2
+abacd => abacd
+
+**Concept**
+* Use StringBuilder to append counts.
+* Initialize a counter and loop through the characters of the string. Check if charAt[i] != charAt[i+1], then append the count to char[i] and reset counter to 0.
+
 ## LinkedList Examples
 
 ### 1. LinkedListNthFromLast
