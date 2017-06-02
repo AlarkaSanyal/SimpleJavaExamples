@@ -148,6 +148,16 @@ Check if a string is a permutation of a palindrome or not.
 * For each character, if between 'a' - 'z', toggle the respective bit in counter. If a character is a multiple of 2, after all the toggling, it will end up as 0, where it started from.
 * Check if counter is 0 (for length even) or counter has only one bit set(any bit, but just 1) (for length odd).
 
+### 5. One Away
+Check if two strings **A** and **B** are one *"edit"* away or not.
+*"edit"* - replacement, insertion, deletion
+
+**Concept**
+#### Option A. OneAwayA
+* Check if length of **A** & **B** are atmost different by 1 or not.
+* If equal, loop through the characters and set a flag the first time there is a difference. While looping, if there is a second difference, return false.
+* If length of **A** & **B** are different by 1, then use two pointers, **pointerA** & **pointerB**. Loop through the characters and the increase the pointer for the bigger string by 1 when there is a difference the first time. While looping, if there is a second difference, i.e. **pointerA** & **pointerB** will not be equal anymore, return false.
+
 ## LinkedList Examples
 
 ### 1. LinkedListNthFromLast
