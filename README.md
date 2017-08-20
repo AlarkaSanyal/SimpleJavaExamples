@@ -176,6 +176,13 @@ Rotate a nXn square matrix
 **Concept**
 * This needs to touch all boxes, so swapping index by index is used here.
 
+### 8. Zero Matrix
+Replace all rows and columns in an mXn matrix where a zero is found.
+
+#### Option A. ZeroMatrixA
+* Store the positions of zeros in two boolean arrays, row and column.
+* Loop through the row and column arrays and replace the corresponding rows and columns in the original matrix with zeros.
+
 ## LinkedList Examples
 
 ### 1. LinkedListNthFromLast
