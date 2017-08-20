@@ -194,7 +194,7 @@ Based on step 1, replace first row and column with zero.
 **NB:** This will take O(1) space.
 
 ### 9. Strign Rotation
-Find if a string s2 is a rotation of string s1 by calling a given isSubString() function just once.
+Find if a string s2 is a rotation of string s1 by calling a given isSubString() function just *once*.
 
 **Concept**
 * Concatenate s1 with s1 itself such that there is a loop and then call the isSubString() function on the concatenated string.
