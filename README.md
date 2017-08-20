@@ -182,6 +182,15 @@ Replace all rows and columns in an mXn matrix where a zero is found.
 #### Option A. ZeroMatrixA
 * Store the positions of zeros in two boolean arrays, row and column.
 * Loop through the row and column arrays and replace the corresponding rows and columns in the original matrix with zeros.
+**NB:** This will take O(N) space for the extra arrays.
+
+#### Option B. ZeroMatrixB
+* Check if the first row and column has any zero or not.
+* Use the first row and column to store which rows and columns need to be replaced with zero.
+* Based on firts row and column, update the rest of the matrix.
+Based on step 1, replace first row and column with zero.
+
+**NB:** This will take O(1) space.
 
 ## LinkedList Examples
 
