@@ -170,6 +170,12 @@ Compress consecutive characters. If there are no consecutive characters, return 
 * Use StringBuilder to append counts.
 * Initialize a counter and loop through the characters of the string. Check if charAt[i] != charAt[i+1], then append the count to char[i] and reset counter to 0.
 
+### 7. Rotate Matrix
+Rotate a nXn square matrix
+
+**Concept**
+* This needs to touch all boxes, so swapping index by index is used here.
+
 ## LinkedList Examples
 
 ### 1. LinkedListNthFromLast
