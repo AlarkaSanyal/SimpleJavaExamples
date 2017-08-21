@@ -201,7 +201,16 @@ Find if a string s2 is a rotation of string s1 by calling a given isSubString() 
 
 ## LinkedList Examples
 
-### 1. LinkedListNthFromLast
+### 1. Remove Dups
+Remove duplicates from an unsorted linked list
+
+#### Option A. RemoveDupsA
+* Traverse the linked list and store the value in a hashset and keep checking if current value is present in the hashset, set the current.next to next.next.
+
+**NB:** This takes O(N) time, but uses a buffer
+
+### Practice
+#### 1. LinkedListNthFromLast
 Finds the **n**th element from the last of a singly linkedList.
 
 **Concept**
@@ -211,7 +220,7 @@ Finds the **n**th element from the last of a singly linkedList.
 
 **NB:** *This helps in the fact that we do not have to first count the size of the linked list to find the **n**th element from the end.*
 
-### 2. LinkedListMiddleElement
+#### 2. LinkedListMiddleElement
 Finds the middle element of a singly linkedList.
 
 **Concept**
@@ -220,19 +229,19 @@ Finds the middle element of a singly linkedList.
 
 **NB:** *This helps in the fact that we do not have to first count the size of the linked list to find the middle element.*
 
-### 3. LinkedListReverse
+#### 3. LinkedListReverse
 Reverses a given singly linkedList.
 
-### 4. LinkedListPalindrome
+#### 4. LinkedListPalindrome
 Checks if a given singly linkedList is palindrome or not.
 
-### 5. LinkedListStack
+#### 5. LinkedListStack
 Stores integers in a **stack** format using singly linkedList. It has the following functions:
 * push - Pushes integer to the stack
 * peep - Prints the last element added to the stack
 * pop - Removes & prints the last element added to the stack
 
-### 6. LinkedListQueue
+#### 6. LinkedListQueue
 Stores integers in a **queue** format using singly linkedList. It has the following functions:
 * enqueue - Pushes integer to the queue
 * dequeue - Removes & prints the first element added to the queue
