@@ -214,6 +214,15 @@ Remove duplicates from an unsorted linked list
 
 **NB:** This takes O(1) space, but O(N^2) time.
 
+### 2. KthToLast
+Print kth to last elements in a LinkedList.
+
+**Concept**
+* Take 2 pointers ptr1 and ptr2.
+* Start moving ptr1 from head to tail but not ptr2.
+* Start moving ptr2 after prt1 has been shifted kth time.
+* When ptr1 hits tail (null), return ptr2, which would be pointing to the kth element.
+
 ### Practice
 #### 1. LinkedListNthFromLast
 Finds the **n**th element from the last of a singly linkedList.
