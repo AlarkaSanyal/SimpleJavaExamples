@@ -223,6 +223,15 @@ Print kth to last elements in a LinkedList.
 * Start moving ptr2 after prt1 has been shifted kth time.
 * When ptr1 hits tail (null), return ptr2, which would be pointing to the kth element.
 
+### 3. DeleteNodeN
+Delete nth node from the end of a singly LinkedList.
+
+**Concept**
+* Take 2 pointers ptr1 and ptr2.
+* Start moving ptr1 from head to tail but not ptr2.
+* Start moving ptr2 after prt1 has been shifted nth time.
+* When ptr1.next hits tail (null), set ptr2 as ptr2.next.next, which would be pointing to the nth element.
+
 ### Practice
 #### 1. LinkedListNthFromLast
 Finds the **n**th element from the last of a singly linkedList.
