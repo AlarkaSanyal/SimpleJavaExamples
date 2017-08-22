@@ -193,7 +193,7 @@ Based on step 1, replace first row and column with zero.
 
 **NB:** This will take O(1) space.
 
-### 9. Strign Rotation
+### 9. String Rotation
 Find if a string s2 is a rotation of string s1 by calling a given isSubString() function just **once**.
 
 **Concept**
@@ -208,6 +208,11 @@ Remove duplicates from an unsorted linked list
 * Traverse the linked list and store the value in a hashset and keep checking if current value is present in the hashset, set the current.next to next.next.
 
 **NB:** This takes O(N) time, but uses a buffer
+
+#### Option B. RemoveDupsB (without using a buffer)
+* Use two loops.
+
+**NB:** This takes O(1) space, but O(N^2) time.
 
 ### Practice
 #### 1. LinkedListNthFromLast
