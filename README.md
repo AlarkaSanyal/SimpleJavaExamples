@@ -232,6 +232,14 @@ Delete nth node from the end of a singly LinkedList.
 * Start moving ptr2 after prt1 has been shifted nth time.
 * When ptr1.next hits tail (null), set ptr2 as ptr2.next.next, which would be pointing to the nth element.
 
+### 4. Partition
+Partition a LinkedList based on a particular value "x", such that all values more than "x" are on one side and all values less than "x" are on the other side. The order might not be the same for the partitioned LinkedList.
+
+#### Option A. PartitionA
+* Loop through the original LinkedList and build 2 LinkedLists with higher than and lower than values.
+* Join the 2 LinkedLists.
+
+
 ### Practice
 #### 1. LinkedListNthFromLast
 Finds the **n**th element from the last of a singly linkedList.
