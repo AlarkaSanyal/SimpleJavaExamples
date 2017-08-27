@@ -241,12 +241,18 @@ Partition a LinkedList based on a particular value "x", such that all values mor
 
 ### 5. Sum List
 Add two numbers represented in a LinkedList format.
-* Number 1 = 6->1->7 i.e. 716
-* Number 2 = 5->1->2 i.e. 215
-* Sum = 9->3->1 i.e. 931
+* Number 1 = 6->1->7 i.e. 716 (backward)
+* Number 2 = 5->1->2 i.e. 215 (backward)
+* Sum = 9->3->1 i.e. 931 (forward)
+
 
 #### Option A. SumListBackward
 * Loop through the 2 LinkedLists and add the values in each loop and store a carry forward for the next loop if value > 9.
+
+#### Option B. SumListForward (if the numbers are in forward representation)
+* 716 + 512 = {(7X100) + (1X10) + (6X1)} + {(5X100) + (1X10) + (2X1)}
+* Find the lenght of the biggest number. This will get us the power of 10 to be multipled for the above concept.
+* Once all the numbers are added to find the sum, convert the integer sum to a LinkedList format.
 
 ### Practice
 #### 1. LinkedListNthFromLast
