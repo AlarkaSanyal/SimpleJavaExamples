@@ -239,6 +239,14 @@ Partition a LinkedList based on a particular value "x", such that all values mor
 * Loop through the original LinkedList and build 2 LinkedLists with higher than and lower than values.
 * Join the 2 LinkedLists.
 
+### 5. Sum List
+Add two numbers represented in a LinkedList format.
+* Number 1 = 6->1->7 i.e. 716
+* Number 2 = 5->1->2 i.e. 215
+* Sum = 9->3->1 i.e. 931
+
+#### Option A. SumListBackward
+* Loop through the 2 LinkedLists and add the values in each loop and store a carry forward for the next loop if value > 9.
 
 ### Practice
 #### 1. LinkedListNthFromLast
