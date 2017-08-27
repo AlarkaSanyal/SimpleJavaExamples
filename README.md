@@ -329,6 +329,12 @@ Implement a min() function for a stack along with push() and pop()  which keeps 
 * For every push(), check if is it the min, add it to the second array.
 * For every pop(), check if the peek() on the second array returns the same value, if yes, that was the min for that instance, so pop it from the second array.
 
+### 3. SetOfStacks
+Implement a stack of plates with push(), pop() and peek(), such that once the first stack reaches a capacity, an new stack is created for push(). Same for pop() and peek().
+
+**Concept**
+* Use an arraylist of stacks.
+
 ## Sorting Examples
 
 ### 1. MergeSort
