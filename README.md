@@ -263,6 +263,16 @@ Find if 2 LinkedLists have an intersecting node (by reference, not just value) o
 * Start looping the bigger list and once the difference in lenght of the two lists is traversed, start looping the smaller list as well in the same while loop.
 * At each loop, check if the bigger and smaller node are the same, and if true, return. This would be the intersecting point.
 
+### 7. LoopDetection
+Find the node at which a loop starts in a circular (corrupt) LinkedList.
+
+**Concept**
+* Take 2 pointers, slow and fast.
+* Fast moves 2 times while slow moves 1 time till fast == slow, i.e. they meet.
+* The start of the loop is at a equal distance from this meeting point and the head of the LinkedList.
+* Move one pointer (let's say slow) to the head of the LinkedList and keep the other pointer (fast) where it was.
+* Start moving the pointers at the same time till they meet, which will be the start of the loop.
+
 ### Practice
 #### 1. LinkedListNthFromLast
 Finds the **n**th element from the last of a singly linkedList.
