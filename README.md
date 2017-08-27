@@ -335,6 +335,15 @@ Implement a stack of plates with push(), pop() and peek(), such that once the fi
 **Concept**
 * Use an arraylist of stacks.
 
+### 4. QueueViaStack
+Implement a queue using stacks.
+
+**Concept**
+* Use 2 stacks, old and new.
+* New is used for pushing new values.
+* Old is used for pop() and peek().
+* Every time push(), pop() or peek() is called, use a shift() function to move all values from one stack to the other depending on what function is called.
+
 ## Sorting Examples
 
 ### 1. MergeSort
