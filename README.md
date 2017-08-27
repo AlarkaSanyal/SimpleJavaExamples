@@ -344,6 +344,15 @@ Implement a queue using stacks.
 * Old is used for pop() and peek().
 * Every time push(), pop() or peek() is called, use a shift() function to move all values from one stack to the other depending on what function is called.
 
+### SortStack
+Sort a stack in ascending order using only one extra stack.
+
+**Concept**
+* pop() each value from original stack and store it in a temp variable.
+* Loop through helper stack and pop() values greater that temp and push() into original.
+* push() temp value in helper stack.
+* pop() all helper values and push() to original stack so that the values are sorted in ascending order.
+
 ## Sorting Examples
 
 ### 1. MergeSort
