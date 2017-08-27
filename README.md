@@ -318,8 +318,16 @@ Stores integers in a **queue** format using singly linkedList. It has the follow
 Implement 3 stacks using a single array.
 
 **Concept**
-* Use a array to store the indices of each of the 3 stacks.
+* Use an array to store the indices of each of the 3 stacks.
 * Find the offset while implementing the push(), pop() and peek() methods.
+
+### 2. StackMin
+Implement a min() function for a stack along with push() and pop()  which keeps a track of the minimum value in the stack.
+
+**Concept**
+* Use a second array which stores the min value.
+* For every push(), check if is it the min, add it to the second array.
+* For every pop(), check if the peek() on the second array returns the same value, if yes, that was the min for that instance, so pop it from the second array.
 
 ## Sorting Examples
 
