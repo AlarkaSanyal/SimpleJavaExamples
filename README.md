@@ -245,7 +245,6 @@ Add two numbers represented in a LinkedList format.
 * Number 2 = 5->1->2 i.e. 215 (backward)
 * Sum = 9->3->1 i.e. 931 (forward)
 
-
 #### Option A. SumListBackward
 * Loop through the 2 LinkedLists and add the values in each loop and store a carry forward for the next loop if value > 9.
 
@@ -253,6 +252,16 @@ Add two numbers represented in a LinkedList format.
 * 716 + 512 = {(7X100) + (1X10) + (6X1)} + {(5X100) + (1X10) + (2X1)}
 * Find the lenght of the biggest number. This will get us the power of 10 to be multipled for the above concept.
 * Once all the numbers are added to find the sum, convert the integer sum to a LinkedList format.
+
+### 6. Intersection
+Find if 2 LinkedLists have an intersecting node (by reference, not just value) or not.
+
+**Concept**
+* Find the length and tails of the 2 lists.
+* If the tails do not match, that means there is no intersection.
+* Find the bigger and smaller list.
+* Start looping the bigger list and once the difference in lenght of the two lists is traversed, start looping the smaller list as well in the same while loop.
+* At each loop, check if the bigger and smaller node are the same, and if true, return. This would be the intersecting point.
 
 ### Practice
 #### 1. LinkedListNthFromLast
