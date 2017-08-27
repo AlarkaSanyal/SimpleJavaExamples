@@ -312,6 +312,15 @@ Stores integers in a **queue** format using singly linkedList. It has the follow
 
 **NB**: *Store the data in a reversed linkedlint while **enqueuing** so that it is easier to retrieve the data added first into the queue.*
 
+## Stacks & Queues
+
+### 1. MultiStack
+Implement 3 stacks using a single array.
+
+**Concept**
+* Use a array to store the indices of each of the 3 stacks.
+* Find the offset while implementing the push(), pop() and peek() methods.
+
 ## Sorting Examples
 
 ### 1. MergeSort
