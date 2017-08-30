@@ -344,7 +344,7 @@ Implement a queue using stacks.
 * Old is used for pop() and peek().
 * Every time push(), pop() or peek() is called, use a shift() function to move all values from one stack to the other depending on what function is called.
 
-### SortStack
+### 5. SortStack
 Sort a stack in ascending order using only one extra stack.
 
 **Concept**
@@ -352,6 +352,15 @@ Sort a stack in ascending order using only one extra stack.
 * Loop through helper stack and pop() values greater that temp and push() into original.
 * push() temp value in helper stack.
 * pop() all helper values and push() to original stack so that the values are sorted in ascending order.
+
+## Trees & Graphs
+
+### Practice
+#### 1. GraphDFS
+Implementing DFS traversal using Node class.
+
+#### 2. GraphDFSUsingInBuiltLinkedList
+Implementing DFS traversal using Java util LinkedList.
 
 ## Sorting Examples
 
