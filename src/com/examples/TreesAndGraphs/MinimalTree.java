@@ -7,29 +7,18 @@ public class MinimalTree {
 	
 	public static void main(String[] args) {
 		MinimalTree mt = new MinimalTree();
-		Node head = mt.createMinimalTree(mt.array, 0, mt.array.length - 1);
+		TreeNode head = mt.createMinimalTree(mt.array, 0, mt.array.length - 1);
 		System.out.println("Done");
 	}
 	
-	private Node createMinimalTree(int[] array, int start, int end) {
+	public TreeNode createMinimalTree(int[] array, int start, int end) {
 		if (end < start) {
 			return null;
 		}
 		int mid = (start + end) / 2;
-		Node tempHead = new Node(array[mid]);
+		TreeNode tempHead = new TreeNode(array[mid]);
 		tempHead.left = createMinimalTree(array, start, mid - 1);
 		tempHead.right = createMinimalTree(array, mid + 1, end);
 		return tempHead;
-	}
-
-	class Node {
-		int root;
-		Node left = null;
-		Node right = null;
-		
-		public Node(int r) {
-			this.root = r;
-		}
-	}
-
+	}	
 }

@@ -367,6 +367,13 @@ Build a binary tree of minimal height from a sorted array.
 **Concept**
 * Start from the middle and use recursion to build the left and right node of the root node.
 
+### 3. ListOfDepth
+Print the same level nodes of a tree in forms of LinkedList.
+
+**Concept**
+* Use 2. MinimalTree to build a tree.
+* Use Queue to build the LinkedLists for each level.
+
 ### Practice
 #### 1. GraphDFS
 Implementing DFS traversal using simple Node class.
