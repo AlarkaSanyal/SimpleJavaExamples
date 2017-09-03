@@ -393,6 +393,15 @@ Find the successor in a BST in-order traversal. Assume parent link is present fo
 * If right sub tree is not null, find the smallest value in the right sub tree.
 * Else, move up the tree till a node is a left child of a parent node.
 
+### 7. BuildOrder (Topological sort)
+Given the dependencies of a few projects in a directed graph, find the order in while the projects can be build such that if "a" is dependent on "b", project "b" is built before project "a".
+
+**Concept**
+* Similar to DFS traversal.
+* For each loop in a DFS traversal, add the last vertex, i.e. the vertex which has null neighbour, into a "stack".
+* Use an addtional boolean array which stores which values has been pushed to the "stack" such that same value is not pushed to the "stack" multiple times.
+* This "stack" will have the required ordering.
+
 ### Practice
 #### 1. GraphDFS
 Implementing DFS traversal using simple Node class.
