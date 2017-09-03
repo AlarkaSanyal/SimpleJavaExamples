@@ -357,10 +357,13 @@ Sort a stack in ascending order using only one extra stack.
 
 ### Practice
 #### 1. GraphDFS
-Implementing DFS traversal using Node class.
+Implementing DFS traversal using simple Node class.
 
 #### 2. GraphDFSUsingInBuiltLinkedList
 Implementing DFS traversal using Java util LinkedList.
+
+#### 3. GraphBFS
+Implementing BFS traversal using simple Node class.
 
 ## Sorting Examples
 
