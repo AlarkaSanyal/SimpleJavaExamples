@@ -380,6 +380,12 @@ Find if a tree is balanced or not. ("balanced" is true if difference between lef
 **Concept**
 * Use recursion and set an error value (e.g.: Integer.MIN_VALUE) if at any step height difference between left side and right side is more than 1.
 
+### 5. ValidateBST
+Check if a binart tree is a binary search tree (BST).
+
+**Concept**
+* Use recursion with a min and a max integer and check if current root value is less than or more than min and max values.
+
 ### Practice
 #### 1. GraphDFS
 Implementing DFS traversal using simple Node class.
