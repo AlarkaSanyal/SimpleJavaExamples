@@ -386,6 +386,13 @@ Check if a binart tree is a binary search tree (BST).
 **Concept**
 * Use recursion with a min and a max integer and check if current root value is less than or more than min and max values.
 
+### 6. Successor
+Find the successor in a BST in-order traversal. Assume parent link is present for each node.
+
+**Concept**
+* If right sub tree is not null, find the smallest value in the right sub tree.
+* Else, move up the tree till a node is a left child of a parent node.
+
 ### Practice
 #### 1. GraphDFS
 Implementing DFS traversal using simple Node class.
