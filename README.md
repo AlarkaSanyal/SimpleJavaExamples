@@ -361,6 +361,12 @@ Find if there is a route between 2 nodes in a directed graph.
 **Concept**
 * Use either DFS/BFS traversal from starting node and break when ending node is found.
 
+### 2. MinimalTree
+Build a binary tree of minimal height from a sorted array.
+
+**Concept**
+* Start from the middle and use recursion to build the left and right node of the root node.
+
 ### Practice
 #### 1. GraphDFS
 Implementing DFS traversal using simple Node class.
