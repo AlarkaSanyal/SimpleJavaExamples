@@ -355,6 +355,12 @@ Sort a stack in ascending order using only one extra stack.
 
 ## Trees & Graphs
 
+### 1. RouteBetweenNodes
+Find if there is a route between 2 nodes in a directed graph.
+
+**Concept**
+* Use either DFS/BFS traversal from starting node and break when ending node is found.
+
 ### Practice
 #### 1. GraphDFS
 Implementing DFS traversal using simple Node class.
