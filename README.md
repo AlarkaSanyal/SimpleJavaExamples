@@ -374,6 +374,12 @@ Print the same level nodes of a tree in forms of LinkedList.
 * Use 2. MinimalTree to build a tree.
 * Use Queue to build the LinkedLists for each level.
 
+### 4. CheckBalanced
+Find if a tree is balanced or not. ("balanced" is true if difference between left and right node is never more than 1)
+
+**Concept**
+* Use recursion and set an error value (e.g.: Integer.MIN_VALUE) if at any step height difference between left side and right side is more than 1.
+
 ### Practice
 #### 1. GraphDFS
 Implementing DFS traversal using simple Node class.
