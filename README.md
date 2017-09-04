@@ -402,6 +402,14 @@ Given the dependencies of a few projects in a directed graph, find the order in 
 * Use an addtional boolean array which stores which values has been pushed to the "stack" such that same value is not pushed to the "stack" multiple times.
 * This "stack" will have the required ordering.
 
+### 8. FirstCommonAncestor
+Find the first common ancestor of node "a" and "b" in a binary tree (NOT BST).
+
+**Concept**
+* Use recursion.
+* Start from root, go down left and then down right sub-tree and return a node when the value of the node matches "a" or "b" or return null if none of the nodes match "a" or "b".
+* Check explanatory comment in code.
+
 ### Practice
 #### 1. GraphDFS
 Implementing DFS traversal using simple Node class.
