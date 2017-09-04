@@ -423,6 +423,12 @@ Implement insert(), find() and a getRandom() function for a BST where getRandom(
 **Concept**
 * Check explanatory comment in code.
 
+### 12. PathWithSum
+Find the number of paths which add up to a certain value.
+
+**Concept**
+* Check explanatory comment in code.
+
 ### Practice
 #### 1. GraphDFS
 Implementing DFS traversal using simple Node class.
