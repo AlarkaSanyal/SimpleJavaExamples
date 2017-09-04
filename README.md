@@ -417,6 +417,12 @@ Given two trees, check if one is a subtree of the other.
 * Use recursion.
 * Check explanatory comment in code.
 
+### 11. RandomNode
+Implement insert(), find() and a getRandom() function for a BST where getRandom() returns a random node and all nodes in the tree has equal probability.
+
+**Concept**
+* Check explanatory comment in code.
+
 ### Practice
 #### 1. GraphDFS
 Implementing DFS traversal using simple Node class.
