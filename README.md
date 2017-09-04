@@ -410,6 +410,13 @@ Find the first common ancestor of node "a" and "b" in a binary tree (NOT BST).
 * Start from root, go down left and then down right sub-tree and return a node when the value of the node matches "a" or "b" or return null if none of the nodes match "a" or "b".
 * Check explanatory comment in code.
 
+### 10. CheckSubTree
+Given two trees, check if one is a subtree of the other.
+
+**Concept**
+* Use recursion.
+* Check explanatory comment in code.
+
 ### Practice
 #### 1. GraphDFS
 Implementing DFS traversal using simple Node class.
