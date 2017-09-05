@@ -462,6 +462,14 @@ If a person can take 1, 2 or 3 steps to climb n steps, how many possible combina
 * In addition, pass an integer array (initially filled with an arbitrary number, for e.g. -1 which wil denote that a value has not been added at that array index) which stores the recursive counts at respective positions, such that before calling the recursive function, check if the array index has a value and return instead of actually calling the function.
 * Assume if at step 0, i.e. no more steps to go, consider baseline step to climb is 1.
 
+### 2. RobotGrid
+In a M X N grid, a robot can move right or down, unless there is an obstacle. Find a path from origin to (m,n).
+
+**Concept**
+* Imagine the robot reached (m,n). It could have got there from either (m-1, n) by going 1 down or from (m, n-1) by going 1 right.
+* Use this in recursion to backtrack the path, considering it returns false when an obstacle it hit.
+* Check explanatory comments in code.
+
 ## Sorting Examples
 
 ### 1. MergeSort
