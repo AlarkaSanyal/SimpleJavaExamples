@@ -470,6 +470,15 @@ In a M X N grid, a robot can move right or down, unless there is an obstacle. Fi
 * Use this in recursion to backtrack the path, considering it returns false when an obstacle it hit.
 * Check explanatory comments in code.
 
+### 3. MagicIndex
+A Magic Index is an index in an array where array[i] = i. Find such a magic index in an array which is sorted but can have duplicate values.
+
+**Concept**
+* Similar to binary search.
+* The start and end index for each half, left and right, will need to be calculated in each recursion such that:
+** For left half, "end" index is the minimum between array[midIndex] and "minIndex - 1".
+** For right half, "start" index is the maximum between array[midIndex] and "minIndex + 1".
+
 ## Sorting Examples
 
 ### 1. MergeSort
