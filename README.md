@@ -447,9 +447,9 @@ If a person can take 1, 2 or 3 steps to climb n steps, how many possible combina
 **Concept**
 * Imagine the person has reached an arbitrary step "x" while climbing "n" steps and is yet to climb another "y" steps to reach "n"th step, i.e. x+y=n.
 * Looking back from "x", the person could have reached x from 3 options:
- * (x - 1)th step, where he took 1 step to reach x
- * (x - 2)nd step, where he took 2 step to reach x
- * (x - 3)nd step, where he took 3 step to reach x
+  * (x - 1)th step, where he took 1 step to reach x
+  * (x - 2)nd step, where he took 2 step to reach x
+  * (x - 3)nd step, where he took 3 step to reach x
 * From above, we can say to reach x, the person had total [(x - 1) + (x - 2) + (x - 3)] options.
 * i.e. F(x) = F(x - 1) + F(x - 2) + F(x - 3)
 
@@ -476,8 +476,8 @@ A Magic Index is an index in an array where array[i] = i. Find such a magic inde
 **Concept**
 * Similar to binary search.
 * The start and end index for each half, left and right, will need to be calculated in each recursion such that:
- * For left half, "end" index is the minimum between array[midIndex] and "minIndex - 1".
- * For right half, "start" index is the maximum between array[midIndex] and "minIndex + 1".
+  * For left half, "end" index is the minimum between array[midIndex] and "minIndex - 1".
+  * For right half, "start" index is the maximum between array[midIndex] and "minIndex + 1".
 
 ## Sorting Examples
 
