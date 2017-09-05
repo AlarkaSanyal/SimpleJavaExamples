@@ -408,26 +408,26 @@ Find the first common ancestor of node "a" and "b" in a binary tree (NOT BST).
 **Concept**
 * Use recursion.
 * Start from root, go down left and then down right sub-tree and return a node when the value of the node matches "a" or "b" or return null if none of the nodes match "a" or "b".
-* Check explanatory comment in code.
+* Check explanatory comments in code.
 
 ### 10. CheckSubTree
 Given two trees, check if one is a subtree of the other.
 
 **Concept**
 * Use recursion.
-* Check explanatory comment in code.
+* Check explanatory comments in code.
 
 ### 11. RandomNode
 Implement insert(), find() and a getRandom() function for a BST where getRandom() returns a random node and all nodes in the tree has equal probability.
 
 **Concept**
-* Check explanatory comment in code.
+* Check explanatory comments in code.
 
 ### 12. PathWithSum
 Find the number of paths which add up to a certain value.
 
 **Concept**
-* Check explanatory comment in code.
+* Check explanatory comments in code.
 
 ### Practice
 #### 1. GraphDFS
@@ -438,6 +438,29 @@ Implementing DFS traversal using Java util LinkedList.
 
 #### 3. GraphBFS
 Implementing BFS traversal using simple Node class.
+
+## Recursion & Dynamic Programming
+
+### 1. TripleStep
+If a person can take 1, 2 or 3 steps to climb n steps, how many possible combinations of steps are possible to climb n steps.
+
+**Concept**
+* Imagine the person has reached an arbitrary step "x" while climbing "n" steps and is yet to climb another "y" steps to reach "n"th step, i.e. x+y=n.
+* Looking back from "x", the person could have reached x from 3 options:
+** (x - 1)th step, where he took 1 step to reach x
+** (x - 2)nd step, where he took 2 step to reach x
+** (x - 3)nd step, where he took 3 step to reach x
+* From above, we can say to reach x, the person had total [(x - 1) + (x - 2) + (x - 3)] options.
+* i.e. F(x) = F(x - 1) + F(x - 2) + F(x - 3)
+
+#### Option A. Simple Recusion
+* Use simple recusion to apply the function F(x).
+* Assume if at step 0, i.e. no more steps to go, consider baseline step to climb is 1.
+
+#### Option B. A little optimized
+* Use simple recusion to apply the function F(x).
+* In addition, pass an integer array (initially filled with an arbitrary number, for e.g. -1 which wil denote that a value has not been added at that array index) which stores the recursive counts at respective positions, such that before calling the recursive function, check if the array index has a value and return instead of actually calling the function.
+* Assume if at step 0, i.e. no more steps to go, consider baseline step to climb is 1.
 
 ## Sorting Examples
 
