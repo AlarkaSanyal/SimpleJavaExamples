@@ -479,6 +479,12 @@ A Magic Index is an index in an array where array[i] = i. Find such a magic inde
   * For left half, "end" index is the minimum between array[midIndex] and "minIndex - 1".
   * For right half, "start" index is the maximum between array[midIndex] and "minIndex + 1".
 
+### 4. PowerSet
+For a given set, return all combinations of subsets.
+
+**Concept**
+* Check full explanatory comments in code.
+  
 ## Sorting Examples
 
 ### 1. MergeSort
