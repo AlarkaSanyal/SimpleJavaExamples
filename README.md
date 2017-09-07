@@ -484,6 +484,12 @@ For a given set, return all combinations of subsets.
 
 **Concept**
 * Check full explanatory comments in code.
+
+### 5. RecursiveMultiply
+Multiply two numbers without using * or /.
+
+**Concept**
+* Check explanatory comments in code.
   
 ## Sorting Examples
 
