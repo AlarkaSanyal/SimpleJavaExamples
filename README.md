@@ -490,6 +490,11 @@ Multiply two numbers without using * or /.
 
 **Concept**
 * Check explanatory comments in code.
+
+### 6. TowersOfHanoi
+
+**Concept**
+* Check explanatory comments in code.
   
 ## Sorting Examples
 
