@@ -492,10 +492,17 @@ Multiply two numbers without using * or /.
 * Check explanatory comments in code.
 
 ### 6. TowersOfHanoi
+Implement Towers of Hanoi game.
 
 **Concept**
 * Check explanatory comments in code.
-  
+
+### 10. PaintFill
+Fill (flood) a m X n matrix with a new color (value).
+
+**Concept**
+* Concept is similar to applying depth first search in each side from a point "matrix[row][col]" in the full matrix and at each step where matrix[row][col] == "oldColor", replace it with "newColor".
+
 ## Sorting Examples
 
 ### 1. MergeSort
