@@ -503,6 +503,12 @@ Fill (flood) a m X n matrix with a new color (value).
 **Concept**
 * Concept is similar to applying depth first search in each side from a point "matrix[row][col]" in the full matrix and at each step where matrix[row][col] == "oldColor", replace it with "newColor".
 
+### 12. EightQueens
+Place 8 queens in a chess board such that node of them can attack each other.
+
+**Concept**
+* Check explanatory comments in code.
+
 ## Sorting Examples
 
 ### 1. MergeSort
