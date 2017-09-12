@@ -557,3 +557,9 @@ Find the freq of a word in a sentence/book.
 **Concept**
 * Do a pre-processing of creating a HashMap storing the word and count of each word.
 * Searching a HashMap with a key is done in O(1), so finding frequency of a word would be faster from this HashMap.
+
+### 4. TicTacToe
+Given a Tic tac Toe board, find out the winner. * Assume the last move placed is known.
+
+**Concept**
+* Based on the last move placed, check if any of the row, column or diagonal(left or right) has all the same elements of the user.
