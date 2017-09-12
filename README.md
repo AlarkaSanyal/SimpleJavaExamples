@@ -540,3 +540,13 @@ Place 8 queens in a chess board such that node of them can attack each other.
 
 ### 1. Binary Search
 Search for an integer in a sorted array of integers.
+
+## Moderate
+
+### 1. NumberSwapper
+Swap two numbers (a = 5, b = 3) without temporary variable.
+
+**Concept**
+* a = a + b; i.e. 5 + 3 = 8
+* b = a - b; i.e. 8 - 3 = 5 // b is swapped
+* a = a - b; i.e. 8 - 5 = 3 // a is swapped
