@@ -550,3 +550,10 @@ Swap two numbers (a = 5, b = 3) without temporary variable.
 * a = a + b; i.e. 5 + 3 = 8
 * b = a - b; i.e. 8 - 3 = 5 // b is swapped
 * a = a - b; i.e. 8 - 5 = 3 // a is swapped
+
+### 2. WordFreq
+Find the freq of a word in a sentence/book.
+
+**Concept**
+* Do a pre-processing of creating a HashMap storing the word and count of each word.
+* Searching a HashMap with a key is done in O(1), so finding frequency of a word would be faster from this HashMap.
