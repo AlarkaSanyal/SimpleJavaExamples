@@ -563,3 +563,9 @@ Given a Tic tac Toe board, find out the winner. * Assume the last move placed is
 
 **Concept**
 * Based on the last move placed, check if any of the row, column or diagonal(left or right) has all the same elements of the user.
+
+### 5. FactZeros
+Find the number of trailing zeros in n! (n factorial).
+
+**Concept**
+* Step function formula -> zeros = n/(5^1) + n/(5^2) + ... + n/(5^x), while n/(5^x) > 0 
