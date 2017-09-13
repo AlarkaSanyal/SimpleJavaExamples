@@ -569,3 +569,18 @@ Find the number of trailing zeros in n! (n factorial).
 
 **Concept**
 * Step function formula -> zeros = n/(5^1) + n/(5^2) + ... + n/(5^x), while n/(5^x) > 0 
+
+### 6. SmallestDifference
+Find the smallest difference between integers in 2 arrays. 
+  {1,15,2,11}
+  {127,235,19,23,12,4}
+  
+**Concept**
+* Sort the arrays.
+  * {1,2,11,15}
+  * {4,12,19,23,127,235}
+* Scroll through the two arrays simultaneously and check the difference and store in a variable "min".
+* At each loop, increment the array index for the one which has a smaller value. For e.g.
+  1. a -> 1 & b -> 4: min = 3
+  2. a -> 2 & b -> 4: min = 2 // a is incremented because value of a was smaller in step 1
+  3. ...
