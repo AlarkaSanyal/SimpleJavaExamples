@@ -572,8 +572,8 @@ Find the number of trailing zeros in n! (n factorial).
 
 ### 6. SmallestDifference
 Find the smallest difference between integers in 2 arrays. 
-  {1,15,2,11}
-  {127,235,19,23,12,4}
+  * {1,15,2,11} &
+  * {127,235,19,23,12,4}
   
 **Concept**
 * Sort the arrays.
