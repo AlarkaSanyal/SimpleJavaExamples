@@ -584,3 +584,10 @@ Find the smallest difference between integers in 2 arrays.
   1. a -> 1 & b -> 4: min = 3
   2. a -> 2 & b -> 4: min = 2 // a is incremented because value of a was smaller in step 1
   3. ...
+  
+### 11. DivingBoard
+Find out all the lengths of a diving board by placing k boards one after the other. There are two types of boards, smaller and bigger.
+
+**Concept**
+* Let smaller is "A" and bigger is "B"
+* All combinations are {(0 of A) + (k of B)},{(1 of A) + (k-1 of B)},{(2 of A) + (k-2 of B)},...,{(k of A) + (0 of B)}
