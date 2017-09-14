@@ -585,6 +585,12 @@ Find the smallest difference between integers in 2 arrays.
   2. a -> 2 & b -> 4: min = 2 // a is incremented because value of a was smaller in step 1
   3. ...
   
+### 9. Operations
+Implement subtraction, multiplication and division using only + operator.
+
+**Concept**
+* Check explanatory comments in code.
+  
 ### 11. DivingBoard
 Find out all the lengths of a diving board by placing k boards one after the other. There are two types of boards, smaller and bigger.
 
