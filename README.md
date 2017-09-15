@@ -597,3 +597,9 @@ Find out all the lengths of a diving board by placing k boards one after the oth
 **Concept**
 * Let smaller is "A" and bigger is "B"
 * All combinations are {(0 of A) + (k of B)},{(1 of A) + (k-1 of B)},{(2 of A) + (k-2 of B)},...,{(k of A) + (0 of B)}
+
+### 15. MasterMind
+Design a guessing game, "Master Mind".
+
+**Concept**
+* Look through the code.
