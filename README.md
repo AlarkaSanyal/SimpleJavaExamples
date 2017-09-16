@@ -609,3 +609,13 @@ Find the sizes of ponds represented by a matrix where val = 0 means it is pond a
 
 **Concept**
 * Check explanatory comments in code.
+
+### 21. SumSwaps
+Find the pair of numbers, which when swapped between 2 arrays makes the sum of each array equal.
+
+**Concept**
+* If the 2 arrays are A & B, and the pair of values are x & y, then this means:
+  * sumA - x + y == sumB - y + x
+  * Solving the above gives, x - y = (sumA - sumB)/2 i.e. x = y + (sumA - sumB)/2;
+  * Let T = (sumA - sumB)/2
+  * We put all values of A in a HashMap/ArrayList and loop through each value of B to find if (b + T) exists in the HashMap or not. If it does, then those are the 2 values which when swapped will make the sum of A and B equal.
