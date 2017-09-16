@@ -603,3 +603,9 @@ Design a guessing game, "Master Mind".
 
 **Concept**
 * Look through the code.
+
+### 19. PondSizes
+Find the sizes of ponds represented by a matrix where val = 0 means it is pond and higher values are land.
+
+**Concept**
+* Check explanatory comments in code.
