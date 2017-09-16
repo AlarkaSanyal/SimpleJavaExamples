@@ -619,3 +619,9 @@ Find the pair of numbers, which when swapped between 2 arrays makes the sum of e
   * Solving the above gives, x - y = (sumA - sumB)/2 i.e. x = y + (sumA - sumB)/2;
   * Let T = (sumA - sumB)/2
   * We put all values of A (i.e. all possible "x"s) in a HashMap/ArrayList and loop through each value of B to find if (y + T) exists in the HashMap or not. If it does, then those are the 2 values which when swapped will make the sum of A and B equal.
+
+### 24. PairWithSum
+Find all pair of values in an array, sum of which equals a value.
+
+**Concept**
+* Check explanatory comments in code.
