@@ -625,3 +625,10 @@ Find all pair of values in an array, sum of which equals a value.
 
 **Concept**
 * Check explanatory comments in code.
+
+### Practice
+#### 1. MatrixSpiral
+Print a matrix in spiral form.
+
+**Concept**
+* Check explanatory comments in code.
