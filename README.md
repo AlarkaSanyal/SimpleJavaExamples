@@ -497,6 +497,15 @@ Implement Towers of Hanoi game.
 **Concept**
 * Check explanatory comments in code.
 
+### 9. Parens
+Find pair of valid parentheses.
+
+** Concept**
+* Loop through from left to right and add openings brackets to a stack and when a closing bracket is encountered, check that top of stack is a similar type opening bracket.
+* If true from above, pop from stack and move forward, else
+* If stack is empty or or peek() from stack did not match similar opening bracket, return false
+* At the end of the loop, check if the stack is empty o rnot, if yes, return true
+
 ### 10. PaintFill
 Fill (flood) a m X n matrix with a new color (value).
 
