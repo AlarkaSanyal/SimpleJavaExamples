@@ -500,7 +500,7 @@ Implement Towers of Hanoi game.
 ### 9. Parens
 Find pair of valid parentheses.
 
-** Concept**
+**Concept**
 * Loop through from left to right and add openings brackets to a stack and when a closing bracket is encountered, check that top of stack is a similar type opening bracket.
 * If true from above, pop from stack and move forward, else
 * If stack is empty or or peek() from stack did not match similar opening bracket, return false
