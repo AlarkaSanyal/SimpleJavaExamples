@@ -641,3 +641,10 @@ Print a matrix in spiral form.
 
 **Concept**
 * Check explanatory comments in code.
+
+#### 2. OverlapRectange
+Check if 2 rectangles overlap or not.
+
+**Concept**
+* A rectangle can be denoted by the top left corner and bottom right corner coordinates.
+* Instead of checking if the two overlap, check if they DO NOT overlap by comparing the coordinates.
