@@ -621,8 +621,8 @@ Find the max sum in a contiguous sub-array of an array.
 
 **Concept**
 * Kadene's Algo
-  current_max = Math.max(arr[i], current_max + arr[i]);
-  total_max = Math.max(total_max, current_max);
+  * current_max = Math.max(arr[i], current_max + arr[i]);
+  * total_max = Math.max(total_max, current_max);
 
 ### 19. PondSizes
 Find the sizes of ponds represented by a matrix where val = 0 means it is pond and higher values are land.
