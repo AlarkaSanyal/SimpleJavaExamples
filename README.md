@@ -439,6 +439,9 @@ Implementing DFS traversal using Java util LinkedList.
 #### 3. GraphBFS
 Implementing BFS traversal using simple Node class.
 
+#### 4. MinDepthBinaryTree
+Find the minimum depth of a binary tree
+
 ## Recursion & Dynamic Programming
 
 ### 1. TripleStep
